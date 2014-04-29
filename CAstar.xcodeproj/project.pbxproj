@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66B402BE19104B34000924A2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B402BD19104B34000924A2 /* Cocoa.framework */; };
+		66B402C819104B34000924A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66B402C619104B34000924A2 /* InfoPlist.strings */; };
+		66B402CA19104B34000924A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B402C919104B34000924A2 /* main.m */; };
+		66B402CE19104B34000924A2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 66B402CC19104B34000924A2 /* Credits.rtf */; };
+		66B402D119104B34000924A2 /* CASAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B402D019104B34000924A2 /* CASAppDelegate.m */; };
+		66B402D419104B34000924A2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66B402D219104B34000924A2 /* MainMenu.xib */; };
+		66B402D619104B34000924A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66B402D519104B34000924A2 /* Images.xcassets */; };
+		66B402DD19104B34000924A2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B402DC19104B34000924A2 /* XCTest.framework */; };
+		66B402DE19104B34000924A2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B402BD19104B34000924A2 /* Cocoa.framework */; };
+		66B402E619104B34000924A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66B402E419104B34000924A2 /* InfoPlist.strings */; };
+		66B402E819104B34000924A2 /* CAstarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B402E719104B34000924A2 /* CAstarTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66B402DF19104B34000924A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66B402B219104B34000924A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66B402B919104B34000924A2;
+			remoteInfo = CAstar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66B402BA19104B34000924A2 /* CAstar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAstar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B402BD19104B34000924A2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		66B402C019104B34000924A2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		66B402C119104B34000924A2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		66B402C219104B34000924A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66B402C519104B34000924A2 /* CAstar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CAstar-Info.plist"; sourceTree = "<group>"; };
+		66B402C719104B34000924A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66B402C919104B34000924A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66B402CB19104B34000924A2 /* CAstar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CAstar-Prefix.pch"; sourceTree = "<group>"; };
+		66B402CD19104B34000924A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		66B402CF19104B34000924A2 /* CASAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CASAppDelegate.h; sourceTree = "<group>"; };
+		66B402D019104B34000924A2 /* CASAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CASAppDelegate.m; sourceTree = "<group>"; };
+		66B402D319104B34000924A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		66B402D519104B34000924A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		66B402DB19104B34000924A2 /* CAstarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAstarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B402DC19104B34000924A2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		66B402E319104B34000924A2 /* CAstarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CAstarTests-Info.plist"; sourceTree = "<group>"; };
+		66B402E519104B34000924A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66B402E719104B34000924A2 /* CAstarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAstarTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66B402B719104B34000924A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B402BE19104B34000924A2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B402D819104B34000924A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B402DE19104B34000924A2 /* Cocoa.framework in Frameworks */,
+				66B402DD19104B34000924A2 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66B402B119104B34000924A2 = {
+			isa = PBXGroup;
+			children = (
+				66B402C319104B34000924A2 /* CAstar */,
+				66B402E119104B34000924A2 /* CAstarTests */,
+				66B402BC19104B34000924A2 /* Frameworks */,
+				66B402BB19104B34000924A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66B402BB19104B34000924A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66B402BA19104B34000924A2 /* CAstar.app */,
+				66B402DB19104B34000924A2 /* CAstarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66B402BC19104B34000924A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66B402BD19104B34000924A2 /* Cocoa.framework */,
+				66B402DC19104B34000924A2 /* XCTest.framework */,
+				66B402BF19104B34000924A2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66B402BF19104B34000924A2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66B402C019104B34000924A2 /* AppKit.framework */,
+				66B402C119104B34000924A2 /* CoreData.framework */,
+				66B402C219104B34000924A2 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		66B402C319104B34000924A2 /* CAstar */ = {
+			isa = PBXGroup;
+			children = (
+				66B402CF19104B34000924A2 /* CASAppDelegate.h */,
+				66B402D019104B34000924A2 /* CASAppDelegate.m */,
+				66B402D219104B34000924A2 /* MainMenu.xib */,
+				66B402D519104B34000924A2 /* Images.xcassets */,
+				66B402C419104B34000924A2 /* Supporting Files */,
+			);
+			path = CAstar;
+			sourceTree = "<group>";
+		};
+		66B402C419104B34000924A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66B402C519104B34000924A2 /* CAstar-Info.plist */,
+				66B402C619104B34000924A2 /* InfoPlist.strings */,
+				66B402C919104B34000924A2 /* main.m */,
+				66B402CB19104B34000924A2 /* CAstar-Prefix.pch */,
+				66B402CC19104B34000924A2 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66B402E119104B34000924A2 /* CAstarTests */ = {
+			isa = PBXGroup;
+			children = (
+				66B402E719104B34000924A2 /* CAstarTests.m */,
+				66B402E219104B34000924A2 /* Supporting Files */,
+			);
+			path = CAstarTests;
+			sourceTree = "<group>";
+		};
+		66B402E219104B34000924A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66B402E319104B34000924A2 /* CAstarTests-Info.plist */,
+				66B402E419104B34000924A2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66B402B919104B34000924A2 /* CAstar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66B402EB19104B34000924A2 /* Build configuration list for PBXNativeTarget "CAstar" */;
+			buildPhases = (
+				66B402B619104B34000924A2 /* Sources */,
+				66B402B719104B34000924A2 /* Frameworks */,
+				66B402B819104B34000924A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAstar;
+			productName = CAstar;
+			productReference = 66B402BA19104B34000924A2 /* CAstar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66B402DA19104B34000924A2 /* CAstarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66B402EE19104B34000924A2 /* Build configuration list for PBXNativeTarget "CAstarTests" */;
+			buildPhases = (
+				66B402D719104B34000924A2 /* Sources */,
+				66B402D819104B34000924A2 /* Frameworks */,
+				66B402D919104B34000924A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66B402E019104B34000924A2 /* PBXTargetDependency */,
+			);
+			name = CAstarTests;
+			productName = CAstarTests;
+			productReference = 66B402DB19104B34000924A2 /* CAstarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66B402B219104B34000924A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CAS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MagerValp;
+				TargetAttributes = {
+					66B402DA19104B34000924A2 = {
+						TestTargetID = 66B402B919104B34000924A2;
+					};
+				};
+			};
+			buildConfigurationList = 66B402B519104B34000924A2 /* Build configuration list for PBXProject "CAstar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66B402B119104B34000924A2;
+			productRefGroup = 66B402BB19104B34000924A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66B402B919104B34000924A2 /* CAstar */,
+				66B402DA19104B34000924A2 /* CAstarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66B402B819104B34000924A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B402C819104B34000924A2 /* InfoPlist.strings in Resources */,
+				66B402D619104B34000924A2 /* Images.xcassets in Resources */,
+				66B402CE19104B34000924A2 /* Credits.rtf in Resources */,
+				66B402D419104B34000924A2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B402D919104B34000924A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B402E619104B34000924A2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66B402B619104B34000924A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B402D119104B34000924A2 /* CASAppDelegate.m in Sources */,
+				66B402CA19104B34000924A2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B402D719104B34000924A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B402E819104B34000924A2 /* CAstarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66B402E019104B34000924A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66B402B919104B34000924A2 /* CAstar */;
+			targetProxy = 66B402DF19104B34000924A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66B402C619104B34000924A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66B402C719104B34000924A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66B402CC19104B34000924A2 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66B402CD19104B34000924A2 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		66B402D219104B34000924A2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66B402D319104B34000924A2 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		66B402E419104B34000924A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66B402E519104B34000924A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66B402E919104B34000924A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		66B402EA19104B34000924A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		66B402EC19104B34000924A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CAstar/CAstar-Prefix.pch";
+				INFOPLIST_FILE = "CAstar/CAstar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66B402ED19104B34000924A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CAstar/CAstar-Prefix.pch";
+				INFOPLIST_FILE = "CAstar/CAstar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		66B402EF19104B34000924A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CAstar.app/Contents/MacOS/CAstar";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CAstar/CAstar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CAstarTests/CAstarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		66B402F019104B34000924A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CAstar.app/Contents/MacOS/CAstar";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CAstar/CAstar-Prefix.pch";
+				INFOPLIST_FILE = "CAstarTests/CAstarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66B402B519104B34000924A2 /* Build configuration list for PBXProject "CAstar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66B402E919104B34000924A2 /* Debug */,
+				66B402EA19104B34000924A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66B402EB19104B34000924A2 /* Build configuration list for PBXNativeTarget "CAstar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66B402EC19104B34000924A2 /* Debug */,
+				66B402ED19104B34000924A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66B402EE19104B34000924A2 /* Build configuration list for PBXNativeTarget "CAstarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66B402EF19104B34000924A2 /* Debug */,
+				66B402F019104B34000924A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66B402B219104B34000924A2 /* Project object */;
+}
