@@ -1,5 +1,5 @@
 //
-//  CASLouderHeap.m
+//  CASMutableArrayHeap.m
 //  CAstar
 //
 //  Created by Pelle on 2014-04-29.
@@ -21,7 +21,7 @@
 
 - (NSString *)description
 {
-    return [NSString stringWithFormat:@"<CASLouderHeap with %d elements: %@>", self.size, [self.tree componentsJoinedByString:@", "]];
+    return [NSString stringWithFormat:@"<CASMutableArrayHeap with %d elements: %@>", self.size, [self.tree componentsJoinedByString:@", "]];
 }
 
 
