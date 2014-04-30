@@ -10,10 +10,10 @@
 
 @interface CASMutableArrayHeap : NSObject
 
-@property NSMutableArray *buffer;
+@property NSMutableArray *tree;
 
 - (int)size;
-- (void)insert:(int)value;
-- (int)pop;
+- (void)push:(NSNumber *)value;
+- (NSNumber *)pop;
 
 @end

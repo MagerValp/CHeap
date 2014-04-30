@@ -8,15 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
-#define ARRAY_HEAP_MAX_SIZE 128
+#define ARRAY_HEAP_MAX_SIZE 1024
 
 @interface CASCArrayHeap : NSObject {
-    unsigned char buffer[ARRAY_HEAP_MAX_SIZE];
-    unsigned char bufSize;
+    int _tree[ARRAY_HEAP_MAX_SIZE];
+    int _treeSize;
 }
 
 - (int)size;
-- (void)insert:(int)value;
+- (void)push:(int)value;
 - (int)pop;
 
 @end
