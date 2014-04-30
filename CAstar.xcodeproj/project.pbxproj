@@ -11,6 +11,7 @@
 		660209361910CD7500DD7872 /* CASCAsmHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = 660209351910CD7500DD7872 /* CASCAsmHeap.m */; };
 		660209381910CE2900DD7872 /* CAstarMutableArrayHeapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 660209371910CE2900DD7872 /* CAstarMutableArrayHeapTests.m */; };
 		661BCDB3191058B500163493 /* CASCArrayHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = 661BCDB2191058B500163493 /* CASCArrayHeap.m */; };
+		664055F1191150B600061AEC /* CAstarBenchmark.m in Sources */ = {isa = PBXBuildFile; fileRef = 664055F0191150B600061AEC /* CAstarBenchmark.m */; };
 		66B402BE19104B34000924A2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B402BD19104B34000924A2 /* Cocoa.framework */; };
 		66B402C819104B34000924A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66B402C619104B34000924A2 /* InfoPlist.strings */; };
 		66B402CA19104B34000924A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B402C919104B34000924A2 /* main.m */; };
@@ -42,6 +43,7 @@
 		660209371910CE2900DD7872 /* CAstarMutableArrayHeapTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAstarMutableArrayHeapTests.m; sourceTree = "<group>"; };
 		661BCDB1191058B500163493 /* CASCArrayHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CASCArrayHeap.h; sourceTree = "<group>"; };
 		661BCDB2191058B500163493 /* CASCArrayHeap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CASCArrayHeap.m; sourceTree = "<group>"; };
+		664055F0191150B600061AEC /* CAstarBenchmark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAstarBenchmark.m; sourceTree = "<group>"; };
 		66B402BA19104B34000924A2 /* CAstar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAstar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66B402BD19104B34000924A2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		66B402C019104B34000924A2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -158,6 +160,7 @@
 		66B402E119104B34000924A2 /* CAstarTests */ = {
 			isa = PBXGroup;
 			children = (
+				664055F0191150B600061AEC /* CAstarBenchmark.m */,
 				051521B71910F62A0065027F /* CAstarCAsmHeapTest.m */,
 				660209371910CE2900DD7872 /* CAstarMutableArrayHeapTests.m */,
 				66B402E719104B34000924A2 /* CAstarCArrayHeapTests.m */,
@@ -287,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				660209381910CE2900DD7872 /* CAstarMutableArrayHeapTests.m in Sources */,
+				664055F1191150B600061AEC /* CAstarBenchmark.m in Sources */,
 				051521B81910F62A0065027F /* CAstarCAsmHeapTest.m in Sources */,
 				66B402E819104B34000924A2 /* CAstarCArrayHeapTests.m in Sources */,
 			);
