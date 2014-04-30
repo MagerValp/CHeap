@@ -14,7 +14,7 @@
 const int batchSize = 128;
 
 @interface CAstarBenchmark : XCTestCase {
-    uint8_t buffer[100 * batchSize];
+    uint8_t buffer[1000 * batchSize];
 }
 
 @end
@@ -45,7 +45,7 @@ const int batchSize = 128;
         }
     }
     NSTimeInterval duration = [NSDate timeIntervalSinceReferenceDate] - start;
-    NSLog(@"CASMutableArrayHeap 10k push/pop = %.2f ms", duration * 1000.0);
+    NSLog(@"CASMutableArrayHeap %lu * %d push/pop = %.2f ms", sizeof(buffer) / batchSize, batchSize, duration * 1000.0);
     XCTAssertTrue(TRUE, @"Always succeeds");
 }
 
@@ -62,7 +62,7 @@ const int batchSize = 128;
         }
     }
     NSTimeInterval duration = [NSDate timeIntervalSinceReferenceDate] - start;
-    NSLog(@"CASCArrayHeap 10k push/pop = %.2f ms", duration * 1000.0);
+    NSLog(@"CASCArrayHeap %lu * %d push/pop = %.2f ms", sizeof(buffer) / batchSize, batchSize, duration * 1000.0);
     XCTAssertTrue(TRUE, @"Always succeeds");
 }
 
@@ -79,7 +79,7 @@ const int batchSize = 128;
         }
     }
     NSTimeInterval duration = [NSDate timeIntervalSinceReferenceDate] - start;
-    NSLog(@"CASCAsmHeap 10k push/pop = %.2f ms", duration * 1000.0);
+    NSLog(@"CASCAsmHeap %lu * %d push/pop = %.2f ms", sizeof(buffer) / batchSize, batchSize, duration * 1000.0);
     XCTAssertTrue(TRUE, @"Always succeeds");
 }
 
