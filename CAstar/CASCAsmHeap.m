@@ -126,7 +126,8 @@
             }
         }
         if (x == currentIndex) {
-            return topValue;
+            a = topValue;
+            return a;
         }
         y = currentIndex;
         [self swap:x with:y];
