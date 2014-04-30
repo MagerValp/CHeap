@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		661BCDB3191058B500163493 /* CASCArrayHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = 661BCDB2191058B500163493 /* CASCArrayHeap.m */; };
 		66B402BE19104B34000924A2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B402BD19104B34000924A2 /* Cocoa.framework */; };
 		66B402C819104B34000924A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66B402C619104B34000924A2 /* InfoPlist.strings */; };
 		66B402CA19104B34000924A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B402C919104B34000924A2 /* main.m */; };
@@ -18,6 +19,7 @@
 		66B402DE19104B34000924A2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B402BD19104B34000924A2 /* Cocoa.framework */; };
 		66B402E619104B34000924A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66B402E419104B34000924A2 /* InfoPlist.strings */; };
 		66B402E819104B34000924A2 /* CAstarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B402E719104B34000924A2 /* CAstarTests.m */; };
+		66B402F319104B8E000924A2 /* CASMutableArrayHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B402F219104B8E000924A2 /* CASMutableArrayHeap.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		661BCDB1191058B500163493 /* CASCArrayHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CASCArrayHeap.h; sourceTree = "<group>"; };
+		661BCDB2191058B500163493 /* CASCArrayHeap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CASCArrayHeap.m; sourceTree = "<group>"; };
 		66B402BA19104B34000924A2 /* CAstar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAstar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66B402BD19104B34000924A2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		66B402C019104B34000924A2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -50,6 +54,8 @@
 		66B402E319104B34000924A2 /* CAstarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CAstarTests-Info.plist"; sourceTree = "<group>"; };
 		66B402E519104B34000924A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		66B402E719104B34000924A2 /* CAstarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAstarTests.m; sourceTree = "<group>"; };
+		66B402F119104B8E000924A2 /* CASMutableArrayHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CASMutableArrayHeap.h; sourceTree = "<group>"; };
+		66B402F219104B8E000924A2 /* CASMutableArrayHeap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CASMutableArrayHeap.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,10 @@
 				66B402D219104B34000924A2 /* MainMenu.xib */,
 				66B402D519104B34000924A2 /* Images.xcassets */,
 				66B402C419104B34000924A2 /* Supporting Files */,
+				66B402F119104B8E000924A2 /* CASMutableArrayHeap.h */,
+				66B402F219104B8E000924A2 /* CASMutableArrayHeap.m */,
+				661BCDB1191058B500163493 /* CASCArrayHeap.h */,
+				661BCDB2191058B500163493 /* CASCArrayHeap.m */,
 			);
 			path = CAstar;
 			sourceTree = "<group>";
@@ -253,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66B402F319104B8E000924A2 /* CASMutableArrayHeap.m in Sources */,
+				661BCDB3191058B500163493 /* CASCArrayHeap.m in Sources */,
 				66B402D119104B34000924A2 /* CASAppDelegate.m in Sources */,
 				66B402CA19104B34000924A2 /* main.m in Sources */,
 			);
@@ -467,6 +479,7 @@
 				66B402ED19104B34000924A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66B402EE19104B34000924A2 /* Build configuration list for PBXNativeTarget "CAstarTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +488,7 @@
 				66B402F019104B34000924A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
