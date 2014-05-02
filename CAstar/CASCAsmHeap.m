@@ -29,29 +29,16 @@
 }
 
 
+static uint8_t a, x, y;
 
 - (uint8_t)size
 {
     return _treeSize;
 }
 
-// Swap tree node at x with the item at y.
-- (void)swap:(uint8_t)x with:(uint8_t)y
-{
-    uint8_t a;
-    uint8_t temp;
-    
-    a = _tree[x];
-    temp = a;
-    a = _tree[y];
-    _tree[x] = a;
-    a = temp;
-    _tree[y] = a;
-}
-
 - (void)push:(uint8_t)value
 {
-    uint8_t a, x, y;
+    uint8_t temp;
     
     // Add value to the bottom of the heap.
     x = _treeSize;
@@ -68,11 +55,16 @@
             break;
         }
         // If x is larger than its parent, we're done.
-        if (_tree[x] > _tree[y]) {
+        if (_tree[y] < _tree[x]) {
             break;
         }
         // Swap x with its parent y.
-        [self swap:x with:y];
+        a = _tree[x];
+        temp = a;
+        a = _tree[y];
+        _tree[x] = a;
+        a = temp;
+        _tree[y] = a;
         // Set x to point at its parent.
         a = y;
         x = a;
@@ -85,9 +77,9 @@
 
 - (uint8_t)pop
 {
-    uint8_t a, x, y;
     uint8_t topValue;
     uint8_t currentIndex;
+    uint8_t temp;
     
     // Save the item at the top so we can return it.
     a = _tree[0];
@@ -112,25 +104,33 @@
         a += 1;
         y = a;
         if (y < _treeSize) {
-            if (_tree[x] > _tree[y]) {
+            if (_tree[y] < _tree[x]) {
                 a = y;
                 x = a;
             }
             // Right child is at x * 2 + 2, or left + 1.
             y++;
             if (y < _treeSize) {
-                if (_tree[x] > _tree[y]) {
+                if (_tree[y] < _tree[x]) {
                     a = y;
                     x = a;
                 }
             }
         }
+        // If both children are larger, we're done.
         if (x == currentIndex) {
             a = topValue;
             return a;
         }
+        // Swap x with its child y.
         y = currentIndex;
-        [self swap:x with:y];
+        a = _tree[x];
+        temp = a;
+        a = _tree[y];
+        _tree[x] = a;
+        a = temp;
+        _tree[y] = a;
+        
         currentIndex = x;
     }
 }
